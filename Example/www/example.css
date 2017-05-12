@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#example {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+#example > * {
+    margin: 10px;
+}
+
+#example .url-input {
+    flex: 0 0 20px;
+}
+
+#example .display {
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#example .display pre {
+    white-space: pre-wrap;
+}
